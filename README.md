@@ -1,7 +1,9 @@
-# Continuous Wasserstein-2 Barycenter Estimation Without Minimax Optimization
-This is the official `Python` implementation of the [ICLR 2021](https://iclr.cc/Conferences/2021) paper **Continuous Wasserstein-2 Barycenter Estimation Without Minimax Optimization** (paper on [arXiv](https://arxiv.org/abs/1909.13082)) by [Alexander Korotin](https://scholar.google.ru/citations?user=1rIIvjAAAAAJ&hl=en), [Lingxiao Li](https://scholar.google.com/citations?user=rxQDLWcAAAAJ&hl=en), [Justin Solomon](https://scholar.google.com/citations?user=pImSVwoAAAAJ&hl=en) and [Evgeny Burnaev](https://scholar.google.ru/citations?user=pCRdcOwAAAAJ&hl=ru).
+# Continuous Wasserstein-2 Barycenter Estimation without Minimax Optimization
+This is the official `Python` implementation of the [ICLR 2021](https://iclr.cc/Conferences/2021) paper **Continuous Wasserstein-2 Barycenter Estimation without Minimax Optimization** (paper on [arXiv](https://arxiv.org/abs/1909.13082)) by [Alexander Korotin](https://scholar.google.ru/citations?user=1rIIvjAAAAAJ&hl=en), [Lingxiao Li](https://scholar.google.com/citations?user=rxQDLWcAAAAJ&hl=en), [Justin Solomon](https://scholar.google.com/citations?user=pImSVwoAAAAJ&hl=en) and [Evgeny Burnaev](https://scholar.google.ru/citations?user=pCRdcOwAAAAJ&hl=ru).
 
-The repository contains reproducible `PyTorch` source code for computing **Wasserstein-2 barycenters** in high dimensions via the **non-minimax** method (proposed in the paper) by using **input convex neural networks**. Examples are provided for various toy examples and averaging image color palettes. The code in this repository is partially based on the code for [**Wasserstein-2 Generative Networks**](https://arxiv.org/abs/1909.13082).
+The repository contains reproducible `PyTorch` source code for computing **Wasserstein-2 barycenters** in high dimensions via the **non-minimax** method (proposed in the paper) by using **input convex neural networks**. Examples are provided for various toy examples and averaging image color palettes.
+
+The code in this repository is partially based on the code for [**Wasserstein-2 Generative Networks**](https://arxiv.org/abs/1909.13082).
 
 <p align="center"><img src="pics/barycenter.png" width="450" /></p>
 
