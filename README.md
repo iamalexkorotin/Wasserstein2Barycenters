@@ -3,9 +3,9 @@ This is the official `Python` implementation of the [ICLR 2021](https://iclr.cc/
 
 The repository contains reproducible `PyTorch` source code for computing **Wasserstein-2 barycenters** in high dimensions via the **non-minimax** method (proposed in the paper) by using **input convex neural networks**. Examples are provided for various toy examples and averaging image color palettes.
 
-The code in this repository is partially based on the code for [**Wasserstein-2 Generative Networks**](https://arxiv.org/abs/1909.13082).
-
 <p align="center"><img src="pics/barycenter.png" width="450" /></p>
+
+**Note:** this repository is partially based on the code for [**Wasserstein-2 Generative Networks**](https://arxiv.org/abs/1909.13082).
 
 ## Prerequisites
 The implementation is GPU-based. Single GPU (~GTX 1080 ti) is enough to run each particular experiment. Main prerequisites are:
