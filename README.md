@@ -5,13 +5,15 @@ The repository contains reproducible `PyTorch` source code for computing **Wasse
 
 <p align="center"><img src="pics/barycenter.png" width="450" /></p>
 
-**Note:** this repository is partially based on the code for [**Wasserstein-2 Generative Networks**](https://arxiv.org/abs/1909.13082).
-
 ## Prerequisites
 The implementation is GPU-based. Single GPU (~GTX 1080 ti) is enough to run each particular experiment. Main prerequisites are:
 - [pytorch](http://pytorch.org/)
 - [torchvision](https://github.com/pytorch/vision)
 - CUDA + CuDNN
+
+## Related repositories
+- [Repository](https://github.com/iamalexkorotin/Wasserstein2GenerativeNetworks) for [Wasserstein-2 Generative Networks](https://arxiv.org/abs/1909.13082) paper;
+- [Repository](https://github.com/lingxiaoli94/CWB) for [Continuous Regularized Wasserstein Barycenters](https://proceedings.neurips.cc/paper/2020/file/cdf1035c34ec380218a8cc9a43d438f9-Paper.pdf) paper;
 
 ## Repository structure
 All the experiments are issued in the form of pretty self-explanatory jupyter notebooks (`notebooks/`). For convenience, the majority of the evaluation output is preserved. Auxilary source code is moved to `.py` modules (`src/`).
