@@ -20,7 +20,7 @@ All the experiments are issued in the form of pretty self-explanatory jupyter no
 - `notebooks/CW2B_toy_experiments.ipynb.ipynb` -- **toy experiments** (in dimensions up to 256) and subset posterior aggregation;
 - `notebooks/CW2B_averaging_color_palettes.ipynb` -- averaging **color palettes** of images;
 ### Input convex neural networks
-- `src/icnn.py` -- modules for Input Convex Neural Network architectures (**DenseICNN**, **ConvICNN**);
+- `src/icnn.py` -- modules for Input Convex Neural Network architectures (**DenseICNN**);
 <p align="center"><img src="https://github.com/iamalexkorotin/Wasserstein2GenerativeNetworks/blob/master/pics/icnn.png" width="450" /></p>
 
 ## Visualized Results
