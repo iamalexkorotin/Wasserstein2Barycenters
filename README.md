@@ -25,6 +25,11 @@ The code for running the experiments are located in self-contained jupyter noteb
 - `src/icnn.py` -- modules for Input Convex Neural Network architectures (**DenseICNN**);
 <p align="center"><img src="https://github.com/iamalexkorotin/Wasserstein2GenerativeNetworks/blob/master/pics/icnn.png" width="450" /></p>
 
+### Poster
+- `poster/CW2B_poster.png` -- poster (landscape format)
+- `poster/CW2B_poster.svg` -- source file for the poster
+<p align="center"><img src="poster/CW2B_poster.png" width="500" /></p>
+
 ## Visualized Results
 The provided code is capable of generating the following visual results that are included in the paper.
 ### Toy Experiments (2D)
