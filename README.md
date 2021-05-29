@@ -1,9 +1,21 @@
 # Continuous Wasserstein-2 Barycenter Estimation without Minimax Optimization
-This is the official `Python` implementation of the [ICLR 2021](https://iclr.cc/Conferences/2021) paper **Continuous Wasserstein-2 Barycenter Estimation without Minimax Optimization** (paper on [openreview](https://openreview.net/forum?id=3tFAs5E-Pe)) by [Alexander Korotin](https://scholar.google.ru/citations?user=1rIIvjAAAAAJ&hl=en), [Lingxiao Li](https://scholar.google.com/citations?user=rxQDLWcAAAAJ&hl=en), [Justin Solomon](https://scholar.google.com/citations?user=pImSVwoAAAAJ&hl=en) and [Evgeny Burnaev](https://scholar.google.ru/citations?user=pCRdcOwAAAAJ&hl=ru).
+This is the official `Python` implementation of the [ICLR 2021](https://iclr.cc/Conferences/2021) paper **Continuous Wasserstein-2 Barycenter Estimation without Minimax Optimization** (paper on [openreview](https://openreview.net/forum?id=3tFAs5E-Pe)) by [Alexander Korotin](https://scholar.google.ru/citations?user=1rIIvjAAAAAJ&hl=en), [Lingxiao Li](https://scholar.google.com/citations?user=rxQDLWcAAAAJ&hl=en), [Justin Solomon](https://scholar.google.com/citations?user=pImSVwoAAAAJ&hl=en) and [Evgeny Burnaev](https://scholar.google.ru/citations?user=pCRdcOwAAAAJ&hl=ru)
 
 The repository contains the fully-reproducible `PyTorch` source code for computing **Wasserstein-2 barycenters** in high dimensions via the **non-minimax** method (proposed in the paper) by using **input convex neural networks**. Examples are provided for various toy examples and the example of averaging image color palettes.
 
 <p align="center"><img src="pics/barycenter.png" width="450" /></p>
+
+## Citation
+```
+@inproceedings{
+  korotin2021continuous,
+  title={Continuous Wasserstein-2 Barycenter Estimation without Minimax Optimization},
+  author={Alexander Korotin and Lingxiao Li and Justin Solomon and Evgeny Burnaev},
+  booktitle={International Conference on Learning Representations},
+  year={2021},
+  url={https://openreview.net/forum?id=3tFAs5E-Pe}
+}
+```
 
 ## Prerequisites
 The implementation is GPU-based. Single GPU (~GTX 1080 ti) is enough to run each particular experiment. Main prerequisites are:
@@ -12,7 +24,7 @@ The implementation is GPU-based. Single GPU (~GTX 1080 ti) is enough to run each
 - CUDA + CuDNN
 
 ## Related repositories
-- [Repository](https://github.com/iamalexkorotin/Wasserstein2GenerativeNetworks) for [Wasserstein-2 Generative Networks](https://arxiv.org/abs/1909.13082) paper.
+- [Repository](https://github.com/iamalexkorotin/Wasserstein2GenerativeNetworks) for [Wasserstein-2 Generative Networks](https://openreview.net/pdf?id=bEoxzW_EXsa) paper.
 - [Repository](https://github.com/lingxiaoli94/CWB) for [Continuous Regularized Wasserstein Barycenters](https://proceedings.neurips.cc/paper/2020/file/cdf1035c34ec380218a8cc9a43d438f9-Paper.pdf) paper.
 
 ## Repository structure
