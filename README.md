@@ -18,10 +18,11 @@ The repository contains the fully-reproducible `PyTorch` source code for computi
 ```
 
 ## Prerequisites
-The implementation is GPU-based. Single GPU (~GTX 1080 ti) is enough to run each particular experiment. Main prerequisites are:
-- [pytorch](http://pytorch.org/)
-- [torchvision](https://github.com/pytorch/vision)
-- CUDA + CuDNN
+The implementation is GPU-based. Single GPU (~GTX 1080 ti) is enough to run each particular experiment. Tested with
+
+`torch==1.3.0`
+
+The code might not run as intended in newer `torch` versions.
 
 ## Related repositories
 - [Repository](https://github.com/iamalexkorotin/Wasserstein2GenerativeNetworks) for [Wasserstein-2 Generative Networks](https://openreview.net/pdf?id=bEoxzW_EXsa) paper.
