@@ -27,6 +27,8 @@ The code might not run as intended in newer `torch` versions.
 ## Related repositories
 - [Repository](https://github.com/iamalexkorotin/Wasserstein2GenerativeNetworks) for [Wasserstein-2 Generative Networks](https://openreview.net/pdf?id=bEoxzW_EXsa) paper.
 - [Repository](https://github.com/lingxiaoli94/CWB) for [Continuous Regularized Wasserstein Barycenters](https://proceedings.neurips.cc/paper/2020/file/cdf1035c34ec380218a8cc9a43d438f9-Paper.pdf) paper.
+- [Repository](https://github.com/iamalexkorotin/Wasserstein2Benchmark) for [Do Neural Optimal Transport Solvers Work? A Continuous Wasserstein-2 Benchmark](https://arxiv.org/abs/2106.01954) paper.
+- [Repository](https://github.com/PetrMokrov/Large-Scale-Wasserstein-Gradient-Flows) for [Large-Scale Wasserstein Gradient Flows](https://arxiv.org/abs/2106.00736) paper.
 
 ## Repository structure
 The code for running the experiments are located in self-contained jupyter notebooks (`notebooks/`). For convenience, the majority of the evaluation output is preserved. Other auxilary source code is moved to `.py` modules (`src/`).
